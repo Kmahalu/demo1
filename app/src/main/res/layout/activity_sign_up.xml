@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/editTextccfullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:layout_weight="1"
+        android:background="@drawable/white_round_design"
+        android:inputType="textCapWords"
+        android:hint="Full Name" />
+
+
+    <EditText
+        android:id="@+id/editTextccphoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:background="@drawable/white_round_design"
+        android:inputType="phone"
+        android:hint="Phone Number"/>
+
+
+    <EditText
+        android:id="@+id/editTextccemail"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Email"
+        android:background="@drawable/white_round_design"
+        android:inputType="textEmailAddress" />
+
+    <Spinner
+        android:id="@+id/spinnercountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:hint="Country Name"
+        android:background="@drawable/white_round_design"
+        android:layout_weight="1"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+
+    <EditText
+        android:id="@+id/editTextccusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/white_round_design"
+        android:inputType="textPersonName"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/editTextccpassword"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_round_design"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextccconfirmpassword"
+        android:hint="Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_round_design"
+        android:ems="10"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonccregister"
+        android:layout_weight="0.3"
+        android:background="@drawable/round_design"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textColor="@color/mywhite"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <TextView
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

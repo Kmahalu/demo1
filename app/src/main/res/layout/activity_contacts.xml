@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactsActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/demo11" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:text="Contact Us"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/primary_text"
+        />
+
+    <Button
+        android:id="@+id/buttonemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_design"
+        android:drawableRight="@drawable/invite_icon"
+        android:drawableTint="@color/mywhite"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="demo@info.co.tz"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/mywhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:drawableTint="@color/mywhite"
+        android:background="@drawable/round_design"
+        android:drawableRight="@drawable/ic_facebook"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:text="Facebook"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/mywhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_design"
+        android:drawableRight="@drawable/ic_twitter"
+        android:drawableTint="@color/mywhite"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:text="Twitter"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/mywhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonInstagran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_design"
+        android:drawableRight="@drawable/ic_instagram"
+        android:drawableTint="@color/mywhite"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Instagram"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/mywhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_design"
+        android:drawableRight="@drawable/loginphone"
+        android:drawableTint="@color/mywhite"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="+255 739 210 598"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@color/mywhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBiasharalocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_design"
+        android:drawableRight="@drawable/ic_location"
+        android:drawableTint="@color/mywhite"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Bibi Titi, Morogoro rd, Dar Es Salaam"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/mywhite"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
